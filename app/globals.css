@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  font-feature-settings: "liga" 1, "kern" 1;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  background: radial-gradient(circle at top left, #f0f4ff, #fdfdfd 45%, #ffffff 80%);
+  color: #16181d;
+}
+
+* {
+  box-sizing: border-box;
+}
